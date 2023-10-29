@@ -9,6 +9,9 @@ def focus_timer(minutes):
         time.sleep(1)
         seconds -= 1
     print("Time's up! Stay focused!")
-
 focus_time = int(input("请输入专注时长（分钟）："))
 focus_timer(focus_time)
+s=0
+for i in range(focus_time+1):
+    s++
+print(s,"已到")
